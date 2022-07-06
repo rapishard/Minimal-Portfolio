@@ -70,8 +70,10 @@ body {
 
 .navbar ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
+  width: 606px;
+  height: 53px;
+  margin-bottom: 112px;
 }
 .navbar li {
   float: left;
