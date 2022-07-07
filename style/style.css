@@ -193,8 +193,8 @@ h2 {
 
 .arrow {
   /* Arrows / Large */
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   /* Inside auto layout */
   flex: none;
   order: 1;
@@ -270,7 +270,7 @@ h2 {
 }
 
 .address {
-  padding: 13px 83px 13px 13px;
+  padding: 13px 130px 13px 13px;
   margin-top: 10px;
   width: 244px;
   height: 25px;
@@ -309,4 +309,14 @@ h2 {
   flex: none;
   order: 0;
   flex-grow: 1;
+}
+
+.star {
+  /* Arrows / Large */
+  width: 25px;
+  height: 25px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }/*# sourceMappingURL=style.css.map */
