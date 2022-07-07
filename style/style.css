@@ -22,7 +22,7 @@ body {
   color: #FFFFFF;
 }
 
-.h1 {
+h1 {
   /* I craft interfaces */
   width: 560px;
   height: 32px;
@@ -43,6 +43,22 @@ body {
   flex-grow: 0;
 }
 
+h2 {
+  /* Inter/Body 2 */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  /* identical to box height, or 141% */
+  /* Text + Icons/Dark • High Emphasis */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 .subtitle {
   /* Subtitle */
   width: 560px;
@@ -60,6 +76,28 @@ body {
   flex: none;
   order: 2;
   align-self: stretch;
+  flex-grow: 0;
+}
+
+.text-link {
+  /* Take me to the magic land */
+  width: 200px;
+  height: 21px;
+  /* Inter/Body3 • Link */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  /* identical to box height, or 140% */
+  letter-spacing: 0.5px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  /* Text + Icons/Dark • High Emphasis */
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
   flex-grow: 0;
 }
 
@@ -93,4 +131,50 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.section560 {
+  /* Auto layout */
+  /*     display: flex;
+  */
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 560px;
+  height: 253px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  justify-content: center;
+}
+
+.arrow {
+  /* Arrows / Large */
+  width: 16px;
+  height: 16px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
 }/*# sourceMappingURL=style.css.map */
