@@ -79,6 +79,46 @@ h2 {
   flex-grow: 0;
 }
 
+.select-subtitle {
+  /* Subtitle */
+  width: 350px;
+  height: 72px;
+  /* Inter/Body 1 */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  /* or 141% */
+  /* Text + Icons/Dark • Medium Emphasis */
+  color: rgba(255, 255, 255, 0.7);
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.mail-subtitle {
+  /* Subtitle */
+  width: 400px;
+  height: 72px;
+  /* Inter/Body 1 */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  /* or 141% */
+  /* Text + Icons/Dark • Medium Emphasis */
+  color: rgba(255, 255, 255, 0.7);
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
 .text-link {
   /* Take me to the magic land */
   width: 200px;
@@ -161,20 +201,21 @@ h2 {
   flex-grow: 0;
 }
 
-/* Remove extra left and right margins, due to padding */
-.row {
-  margin: 0 -5px;
+.page {
+  display: flex;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.page > * {
+  padding: 1rem;
 }
 
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 25%;
+.sidebar {
+  background: var(--color-primary-x-light);
+  outline: 1px solid var(--color-primary);
+  width: 14rem;
+}
+
+.page-footer {
+  display: flex;
+  height: 20px;
 }/*# sourceMappingURL=style.css.map */

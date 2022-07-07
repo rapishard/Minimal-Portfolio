@@ -61,6 +61,46 @@ h2 {
     flex-grow: 0;
 }
 
+.select-subtitle {
+    /* Subtitle */
+    width: 350px;
+    height: 72px;
+    /* Inter/Body 1 */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    /* or 141% */
+    /* Text + Icons/Dark • Medium Emphasis */
+    color: rgba(255, 255, 255, 0.7);
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.mail-subtitle {
+    /* Subtitle */
+    width: 400px;
+    height: 72px;
+    /* Inter/Body 1 */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    /* or 141% */
+    /* Text + Icons/Dark • Medium Emphasis */
+    color: rgba(255, 255, 255, 0.7);
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
 .text-link {
     /* Take me to the magic land */
     width: 200px;
