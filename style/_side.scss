@@ -8,11 +8,18 @@
 
 .sidebar {
     background: var(--color-primary-x-light);
-    outline: 1px solid var(--color-primary);
     width: 14rem;
 }
 
 .page-footer {
     display: flex;
     height: 20px;
+}
+
+.page-select {
+    display: flex;
+}
+
+.page-select>* {
+    padding: 0rem;
 }

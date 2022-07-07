@@ -1,0 +1,16 @@
+.sign-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 13px 16px;
+    gap: 10px;
+    width: 244px;
+    height: 50px;
+    /* Greys/06 */
+    background: #4F4F4F;
+    border-radius: 8px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
