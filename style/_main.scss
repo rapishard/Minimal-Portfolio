@@ -1,8 +1,5 @@
 .html,
 body {
-    /* Auto layout */
-    /*     display: flex;
- */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -11,6 +8,5 @@ body {
     position: relative;
     width: 606px;
     height: 2486px;
-    /* Greys/08 */
     background: #2A2A2A;
 }

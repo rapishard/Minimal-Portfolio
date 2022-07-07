@@ -5,20 +5,15 @@
 }
 
 h1 {
-    /* I craft interfaces */
     width: 560px;
     height: 32px;
-    /* Inter/H5 */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
-    /* identical to box height, or 133% */
     letter-spacing: -0.2px;
-    /* Text + Icons/Dark • High Emphasis */
     color: #FFFFFF;
-    /* Inside auto layout */
     flex: none;
     order: 1;
     align-self: stretch;
@@ -26,35 +21,26 @@ h1 {
 }
 
 h2 {
-    /* Inter/Body 2 */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-    /* identical to box height, or 141% */
-    /* Text + Icons/Dark • High Emphasis */
     color: #FFFFFF;
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 
 .subtitle {
-    /* Subtitle */
     width: 560px;
     height: 72px;
-    /* Inter/Body 1 */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
-    /* or 141% */
-    /* Text + Icons/Dark • Medium Emphasis */
     color: rgba(255, 255, 255, 0.7);
-    /* Inside auto layout */
     flex: none;
     order: 2;
     align-self: stretch;
@@ -62,19 +48,14 @@ h2 {
 }
 
 .select-subtitle {
-    /* Subtitle */
     width: 350px;
     height: 72px;
-    /* Inter/Body 1 */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
-    /* or 141% */
-    /* Text + Icons/Dark • Medium Emphasis */
     color: rgba(255, 255, 255, 0.7);
-    /* Inside auto layout */
     flex: none;
     order: 2;
     align-self: stretch;
@@ -82,19 +63,14 @@ h2 {
 }
 
 .mail-subtitle {
-    /* Subtitle */
     width: 400px;
     height: 72px;
-    /* Inter/Body 1 */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
-    /* or 141% */
-    /* Text + Icons/Dark • Medium Emphasis */
     color: rgba(255, 255, 255, 0.7);
-    /* Inside auto layout */
     flex: none;
     order: 2;
     align-self: stretch;
@@ -102,21 +78,16 @@ h2 {
 }
 
 .text-link {
-    /* Take me to the magic land */
     width: 200px;
     height: 21px;
-    /* Inter/Body3 • Link */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 21px;
-    /* identical to box height, or 140% */
     letter-spacing: 0.5px;
     text-decoration-line: underline;
-    /* Text + Icons/Dark • High Emphasis */
     color: #FFFFFF;
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;

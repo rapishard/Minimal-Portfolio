@@ -5,11 +5,9 @@
     padding: 13px 24px;
     width: 100px;
     height: 25px;
-    /* Greys/06 */
     background: #4F4F4F;
     mix-blend-mode: normal;
     border-radius: 12px;
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -20,7 +18,6 @@
     margin-top: 10px;
     width: 100px;
     height: 25px;
-    /* Inter/Body3 • Link */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -28,12 +25,9 @@
     line-height: 24px;
     background: #4F4F4F;
     border-radius: 8px;
-    /* identical to box height, or 140% */
     letter-spacing: 0.5px;
     text-decoration-line: none;
-    /* Text + Icons/Dark • High Emphasis */
     color: #FFFFFF;
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
