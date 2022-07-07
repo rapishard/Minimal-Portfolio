@@ -8,18 +8,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 64px 417px;
+  padding: 0px 417px;
   gap: 112px;
   position: relative;
-  width: 1440px;
+  width: 606px;
   height: 2486px;
   /* Greys/08 */
   background: #2A2A2A;
-}
-
-.contasiner {
-  width: 1440px;
-  height: 2486px;
 }
 
 .text {
@@ -74,6 +69,7 @@ body {
   width: 606px;
   height: 53px;
   margin-bottom: 112px;
+  margin-top: 64px;
 }
 .navbar li {
   float: left;
@@ -87,4 +83,14 @@ body {
 }
 .navbar li a:hover {
   background-color: #111;
+}
+
+.avatar {
+  /* Avatar + States */
+  width: 80px;
+  height: 80px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }/*# sourceMappingURL=style.css.map */
