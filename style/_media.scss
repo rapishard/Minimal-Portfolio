@@ -12,9 +12,12 @@
                                                             width: 260px;
                                                         }
                                                         .article {
-                                                            margin-right: 32px;
                                                             margin-bottom: 32px;
-                                                            width: 112px;
+                                                            width: 200px;
+                                                        }
+                                                        article.article {
+                                                            margin-bottom: 32px;
+                                                            width: 200px;
                                                         }
                                                         .navbar {
                                                             ul {
