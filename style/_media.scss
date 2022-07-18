@@ -113,6 +113,10 @@
                                                             width: 105px;
                                                             height: 100px;
                                                         }
+                                                        .mail-img {
+                                                            width: 105px;
+                                                            height: 105px;
+                                                        }
                                                     }
                                                     
                                                     @media all and (min-width: 512px) and (max-width: 1024px) {
@@ -121,9 +125,15 @@
                                                             flex-direction: column;
                                                             justify-content: center;
                                                             align-items: center;
-                                                            width: 50%;
+                                                            width: 70%;
                                                             margin: 0px;
                                                             padding: 0px 247px 0px 247px;
+                                                        }
+                                                        .sidebar {
+                                                            width: 14rem;
+                                                        }
+                                                        .sidebar-star {
+                                                            width: 250px;
                                                         }
                                                     }
                                                     
@@ -133,7 +143,7 @@
                                                             flex-direction: column;
                                                             justify-content: center;
                                                             align-items: center;
-                                                            width: 50%;
+                                                            width: 100%;
                                                             margin: 0px;
                                                             padding: 0px 317px 0px 317px;
                                                         }
