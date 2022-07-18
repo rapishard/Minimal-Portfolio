@@ -5,7 +5,8 @@
                                                             justify-content: center;
                                                             align-items: center;
                                                             padding: 0px 40px 0px 40px;
-                                                            width: 30%;
+                                                            width: 60%;
+                                                            height: 100%;
                                                             margin: 0px;
                                                         }
                                                         .section560 {
@@ -97,11 +98,20 @@
                                                             margin-bottom: 12px;
                                                         }
                                                         .sidebar {
-                                                            background: var(--color-primary-x-light);
-                                                            width: 14rem;
+                                                            width: 10rem;
                                                         }
                                                         .sidebar-star {
                                                             width: 150px;
+                                                        }
+                                                        .star {
+                                                            width: 10px;
+                                                            flex: none;
+                                                            flex-grow: 0;
+                                                            margin-left: 8px;
+                                                        }
+                                                        .phone-img {
+                                                            width: 105px;
+                                                            height: 100px;
                                                         }
                                                     }
                                                     
