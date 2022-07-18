@@ -13,6 +13,10 @@ body {
   background: #2A2A2A;
 }
 
+.margin-botton {
+  margin-bottom: 112px;
+}
+
 .text {
   font-family: "Inter";
   color: #FFFFFF;
@@ -375,6 +379,15 @@ body {
     height: 25px;
     font-weight: 500;
     font-size: 10px;
+  }
+  .back {
+    margin-bottom: 10px;
+    width: 206px;
+    background: #353333;
+    border-radius: 8px;
+  }
+  .margin-botton {
+    margin-bottom: 12px;
   }
 }
 @media all and (min-width: 512px) and (max-width: 1024px) {
