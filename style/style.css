@@ -194,6 +194,10 @@ h2 {
   width: 14rem;
 }
 
+.sidebar-star {
+  width: 250px;
+}
+
 .page-footer {
   display: flex;
   height: 20px;
@@ -317,7 +321,7 @@ body {
   .navbar ul {
     width: 403px;
     height: 20px;
-    margin-bottom: 112px;
+    margin-bottom: 12px;
     margin-top: 64px;
   }
   .navbar li {
@@ -388,6 +392,13 @@ body {
   }
   .margin-botton {
     margin-bottom: 12px;
+  }
+  .sidebar {
+    background: var(--color-primary-x-light);
+    width: 14rem;
+  }
+  .sidebar-star {
+    width: 150px;
   }
 }
 @media all and (min-width: 512px) and (max-width: 1024px) {

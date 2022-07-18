@@ -23,7 +23,7 @@
                                                             ul {
                                                                 width: 403px;
                                                                 height: 20px;
-                                                                margin-bottom: 112px;
+                                                                margin-bottom: 12px;
                                                                 margin-top: 64px;
                                                             }
                                                             li {
@@ -95,6 +95,13 @@
                                                         }
                                                         .margin-botton {
                                                             margin-bottom: 12px;
+                                                        }
+                                                        .sidebar {
+                                                            background: var(--color-primary-x-light);
+                                                            width: 14rem;
+                                                        }
+                                                        .sidebar-star {
+                                                            width: 150px;
                                                         }
                                                     }
                                                     
