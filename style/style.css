@@ -9,12 +9,16 @@ body {
   gap: 112px;
   position: relative;
   width: 606px;
-  height: 2486px;
+  height: 2616px;
   background: #2A2A2A;
 }
 
 .margin-botton {
   margin-bottom: 112px;
+}
+
+.content {
+  padding: 16px 0px 16px 16px;
 }
 
 .text {
@@ -81,7 +85,7 @@ h2 {
 }
 
 .mail-subtitle {
-  width: 400px;
+  width: 360px;
   height: 72px;
   font-family: "Inter";
   font-style: normal;
@@ -186,12 +190,13 @@ h2 {
 }
 
 .page > * {
-  padding: 1rem;
+  /*     padding: 1rem;
+  */
 }
 
 .sidebar {
   background: var(--color-primary-x-light);
-  width: 14rem;
+  width: 10rem;
 }
 
 .sidebar-star {
@@ -433,7 +438,7 @@ body {
     align-items: center;
     width: 606px;
     margin: 0px;
-    padding: 0px 247px 0px 247px;
+    padding: 0px 240px 0px 240px;
   }
   .sidebar {
     width: 14rem;
