@@ -366,7 +366,7 @@ body {
     width: 300px;
     height: 92px;
     font-size: 18px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
   }
   .select-subtitle {
     width: 300px;
@@ -424,7 +424,7 @@ body {
     width: 150px;
   }
   .star {
-    width: 10px;
+    width: 25px;
     flex: none;
     flex-grow: 0;
     margin-left: 8px;
