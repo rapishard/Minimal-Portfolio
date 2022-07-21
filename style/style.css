@@ -364,14 +364,20 @@ body {
   }
   .subtitle {
     width: 300px;
-    height: 92px;
+    height: 62px;
     font-size: 18px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .select-subtitle {
     width: 300px;
     font-size: 18px;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .mail-subtitle {
     width: 280px;
